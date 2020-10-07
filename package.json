@@ -1,0 +1,23 @@
+{
+  "name": "test-softevol-src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Makskravch/test-softevol-src.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Makskravch/test-softevol-src/issues"
+  },
+  "homepage": "https://github.com/Makskravch/test-softevol-src#readme",
+  "devDependencies": {
+    "sass": "^1.26.12"
+  }
+}

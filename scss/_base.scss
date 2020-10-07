@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  font-family: "Segoe UI", "SegoeUI", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 1.6rem;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+i {
+  display: inline-block;
+}
+
+picture {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  max-width: $site_width + px;
+  margin: 0 auto;
+}
