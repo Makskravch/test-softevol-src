@@ -12,6 +12,7 @@ body {
   font-family: "Segoe UI", "SegoeUI", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 1.6rem;
+  color: $color-text;
 }
 
 img,
@@ -21,8 +22,25 @@ svg {
   margin: 0 auto;
 }
 
+svg {
+  height: auto;
+  width: 20px;
+}
+
 i {
   display: inline-block;
+  path {
+    fill: currentColor;
+  }
+}
+
+a,
+button {
+  color: $color-text;
+}
+
+button {
+  cursor: pointer;
 }
 
 picture {
@@ -30,7 +48,15 @@ picture {
 }
 
 .container {
+  padding: 0 5%;
+}
+
+.container__inner {
   width: 100%;
   max-width: $site_width + px;
   margin: 0 auto;
+}
+
+.icon-arrow-down {
+  width: 8px;
 }
