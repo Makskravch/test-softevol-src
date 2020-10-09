@@ -11,13 +11,42 @@
     <header class="header">
       <div class="container">
         <div class="container__inner header__inner">
+          <button class="mobile-menu-btn header__mobile-menu-btn" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <!-- Logo -->
           <a href="/" class="logo header__logo">
             <picture>
               <img src="img/logo.png" alt="logo" />
             </picture>
           </a>
-          <a href="#" class="c-logo header__c-logo"> Surface </a>
+          <!-- c-logo -->
+          <div class="c-logo header__c-logo">
+            <a href="#" class="c-logo__link">
+              Surface
+              <i class="icon icon-arrow-down">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  width="451.847px"
+                  height="451.847px"
+                  viewBox="0 0 451.847 451.847"
+                  style="enable-background: new 0 0 451.847 451.847"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"
+                  />
+                </svg>
+              </i>
+            </a>
+          </div>
           <!-- Nav -->
           <nav class="nav header__nav">
             <ul>
@@ -130,7 +159,7 @@
           </nav>
           <!-- Actions -->
           <div class="actions header__actions">
-            <button class="actions__item" type="button">
+            <button class="actions__item actions__menu" type="button">
               All Microsoft
               <i class="icon icon-arrow-down">
                 <svg
@@ -152,8 +181,12 @@
                 </svg>
               </i>
             </button>
-            <button class="actions__item" type="button">
-              Search
+            <button
+              class="actions__item actions__search"
+              type="button"
+              title="Search Microsoft.com"
+            >
+              <span> Search </span>
               <i class="icon icon-lens">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -167,8 +200,12 @@
                 </svg>
               </i>
             </button>
-            <a class="actions__item" href="#">
-              Cart
+            <a
+              class="actions__item actions__cart"
+              href="#"
+              title="0 items in shopping cart"
+            >
+              <span> Cart </span>
               <i class="icon icon-cart">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -198,8 +235,8 @@
                 </svg>
               </i>
             </a>
-            <a class="actions__item" href="#">
-              Cart
+            <a class="actions__item actions__user" href="#">
+              <span> Sign in </span>
               <i class="icon icon-user">
                 <svg
                   height="512"

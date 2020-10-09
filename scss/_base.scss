@@ -13,6 +13,8 @@ body {
     sans-serif;
   font-size: 1.6rem;
   color: $color-text;
+  height: calc(100vh + 200px);
+  background: #e6f9ff;
 }
 
 img,
@@ -49,6 +51,12 @@ picture {
 
 .container {
   padding: 0 5%;
+  @media only screen and (max-width: 1080px) {
+    padding: 0 24px;
+  }
+  @media only screen and (max-width: 859px) {
+    padding: 0;
+  }
 }
 
 .container__inner {
